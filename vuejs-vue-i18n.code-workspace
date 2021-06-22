@@ -1,0 +1,47 @@
+{
+    "folders": [{
+      "path": "."
+    }],
+    "settings": {
+      "editor.formatOnSave": false,
+      "editor.tabSize": 2,
+      "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+      },
+      "typescript.format.enable": false,
+      "eslint.alwaysShowStatus": true,
+      "eslint.options": {
+        "extensions": [
+          ".html",
+          ".js",
+          ".vue"
+        ]
+      },
+      "eslint.validate": [
+        "vue",
+        "html",
+        "hollowtree.vue-snippets",
+        "javascript",
+        "javascriptreact",
+        "vue-html"
+      ],
+      "vetur.validation.script": false,
+      "vetur.validation.template": false,
+      "cSpell.enabled": true,
+      "cSpell.enableFiletypes": [
+        "js",
+        "vue",
+        "json"
+      ]
+    },
+    "extensions": {
+      "recommendations": [
+        "jcbuisson.vue",
+        "hollowtree.vue-snippets",
+        "dariofuzinato.vue-peek",
+        "octref.vetur",
+        "dbaeumer.vscode-eslint",
+        "streetsidesoftware.code-spell-checker"
+      ]
+    }
+  }
