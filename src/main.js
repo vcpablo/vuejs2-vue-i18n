@@ -13,7 +13,7 @@ Vue.use(BootstrapVue)
 
 new Vue({
   store,
-  router,
   i18n,
+  router,
   render: h => h(App)
 }).$mount('#app')
